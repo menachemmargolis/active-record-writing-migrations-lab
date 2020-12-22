@@ -1,4 +1,7 @@
+
 require 'active_record'
+
+
 include ActiveRecord::Tasks
 
 DatabaseTasks.db_dir = 'db'
